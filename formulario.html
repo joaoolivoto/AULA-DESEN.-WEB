@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        
+        <link rel="stylesheet" type="text/css" href="css/css.css" media="screen">
+
+        
+        <title>Cadastro</title>
+    </head>
+
+    <body>  
+
+        
+        <div>
+            <h1 id="titulo">Cadastro para Jogar no Figueirense</h1>
+            <br>
+            <p id="subtitulo">Complete suas informações:</p>
+            <br>
+        </div>
+
+        
+        <form>
+
+            <fieldset class="grupo">
+                
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+
+
+                <div class="campo">
+                    <label for="telefone"><strong>Telefone</strong></label>
+                    <input type="text" name="telefone" id="telefone" required>
+                </div>        
+            </fieldset>
+
+            
+            <div class="campo">
+                <label><strong>Você nasceu em algum desses anos? Se sim qual?</strong></label>
+                <label>
+                    <input type="radio" name="data nascimento" value="2001" checked>2001
+                </label>
+                <label>
+                    <input type="radio" name="data nascimento" value="2002">2002
+                </label>
+                <label>
+                    <input type="radio" name="data nascimento" value="2003">2003
+                </label>
+            </div>
+
+        
+            <div class="campo">
+                <label for="ja fez parte de algum clube"><strong>Já fez parte de algum clube?</strong></label>
+                <select id="ja fez parte de algum clube" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>SIM</option>
+                  <option>NÃO</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                
+                <div id="check">
+                    <label><strong>Qual a posição que você joga?:</strong></label><br><br>
+                    <input type="checkbox" id="posiçao1" name="posiçao1" value="GOLEIRO">
+                    <label for="posiçao1"> Goleiro</label>
+                    <input type="checkbox" id="posiçao2" name="posiçao2" value="LATERAL">
+                    <label for="posiçao2"> Lateral</label>
+                    <input type="checkbox" id="posiçao3" name="posiçao3" value="ZAGUEIRO">
+                    <label for="posiçao3"> Zagueiro</label>
+                    <input type="checkbox" id="posiçao4" name="posiçao4" value="MEIO CAMPO">
+                    <label for="posiçao4"> Meio-Campo</label>
+                    <input type="checkbox" id="posiçao5" name="posiçao5" value="ATACANTE">
+                    <label for="posiçao5"> Atacante</label>
+                    
+                </div>
+            </fieldset>
+
+            
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Conte por qual motivo escolher o Figueirense para jogar: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+            
+            <button class="botao" type="submit" onsubmit="">Concluído</button>            
+
+        </form>
+
+    </body>
+
+</html>

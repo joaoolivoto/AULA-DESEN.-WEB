@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #ffffff;
+        }
+
+        .header {
+            padding: 5px;
+            font-size: 30px;
+            text-align: center;
+            background: rgb(39, 156, 59);
+        }
+
+        .leftcolumn {
+            float: center;
+            width: 50%;
+        }
+
+        .fakeimg {
+            background-color: rgb(255, 238, 0);
+            width: 100%;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: rgb(39, 156, 59);
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .footer {
+            padding: 20px;
+            text-align: right;
+            background: #ffffff(214, 213, 213);
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 800px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h2>SELEÇÃO BRASILEIRA</h2>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h1>A um mês da convocação para a Copa do Mundo, veja quais são as dúvidas de Tite na Seleção...</h1>
+                <h5>Data de Postagem: 09/10/2022 16:31</h5>
+                <img src="https://s2.glbimg.com/GHa5zBkmjV8s2j4heZNkQm8oYkg=/0x0:2048x1351/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/O/f/szkaBpTSypxoQzNAx4Kg/52345614683-5520c90f31-k.jpg"
+                    class="img-responsive" style="width:100%" alt="Image">
+                <p>Daqui a exatamente um mês, em 7 de novembro, o técnico Tite vai divulgar a relação dos 26 jogadores convocados para defender a seleção brasileira na Copa do Mundo do Catar.</p>
+
+                <h4>A lista já está bem encaminhada - 80% definida, de acordo com César Sampaio, auxiliar de Tite. Porém, ainda há dúvidas, e não apenas de nomes, mas também em relação a composição da convocação.</h4>
+                    
+                <h4>Nos últimos amistosos antes do Mundial, contra Gana (3 a 0) e Tunísia (5 a 1), a Seleção contou com apenas um lateral-direito e cinco zagueiros, algo que pode se repetir na Copa do Mundo, mas ainda não é certo.</h4>
+                    
+                <h4>Também há dúvida na quantidade de atletas dos outros setores. Na data Fifa de junho, Tite levou sete meio-campistas e oito atacantes. Já em setembro, foram seis e nove, respectivamente.</h4>
+                    
+                <h4>Antes da lista final de convocados, a Seleção enviará para Fifa, em 21 de outubro, uma relação com até 55 nomes.</h4>
+            </div>
+            <div class="card">
+                <h1>Neymar destaca sonho de "ganhar tudo com o PSG e a Seleção" na temporada</h1>
+                <h5>Data de Postagem: 09/10/2022 16:43</h5>
+                <img src="https://s2.glbimg.com/715rlwURkXOjJKpwfskP32USv_M=/0x0:4690x3126/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/F/L/n0YDTBQFe8rhke33wYLA/gettyimages-1243758382.jpg"
+                    class="img-responsive" style="width:100%" alt="Image">
+                <p>Astro diz que objetivo para 2022/23 é ser campeão com seu clube e também levar a Copa do Mundo com o Brasil. E garante que não há "novo Neymar" na temporada: "As coisas se encaixaram"</p>
+                
+                <h4>O bom começo de temporada de Neymar, com 11 gols e nove assistências em 13 partidas, vem empolgando tanto os torcedores do PSG, que sonham com o inédito título na Liga dos Campeões, como também os fãs da seleção brasileira, que veem no craque um possível diferencial na busca pelo Hexa. E Neymar também não fica para trás: o astro afirmou à "PSG TV" que tem como meta empilhar taças em 2022/23.</h4>
+                
+                <h2>"Estou muito empolgado e feliz por ter começado bem e pelos jogos que a gente vem fazendo tanto no Paris Saint-Germain quanto na seleção brasileira. É um objetivo desse ano, vencer com as duas equipes, ganhar tudo com o PSG, ganhar tudo com a seleção brasileira."</h2>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="data:image/png;base64,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" class="img-responsive" style="width: 150px;%"
+            alt="Image">
+    </div>
+</body>
+</html>
